@@ -3788,10 +3788,10 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-pbxproj-dom@^1.0.11:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/pbxproj-dom/-/pbxproj-dom-1.2.0.tgz#1cf4101163bd666eba9eb92a5b8f616ce824ea85"
-  integrity sha512-K2czrWqA68AR0q1UXz5EBi/zoxcljrkO4RSJX0jPnVn3iyE0HYnYOzaEEDYMpueczkT/Vtdm3SCc3NM+12kMaQ==
+pbxproj-dom2@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pbxproj-dom2/-/pbxproj-dom2-1.0.0.tgz#491b42ef7ba34e2fae55112746a97d1860305764"
+  integrity sha512-NO4n++QnXeZ5GwXf10oThFW1wBQ3c1yiOVA5lDnDSr4O99H+YNIojlD2meK+dX0rJUtgL8O9v10R2S6ejVodgw==
 
 picomatch@^2.2.3:
   version "2.2.3"

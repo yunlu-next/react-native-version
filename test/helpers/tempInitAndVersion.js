@@ -8,7 +8,7 @@ export default () => {
 		&& git config user.name "Test Zor"
 		&& git add .
 		&& git commit -m "Initial commit"
-		&& npm config set scripts-prepend-node-path true
+		&& (npm config set scripts-prepend-node-path true 2>/dev/null || true)
 		&& npm version major --ignore-scripts
 		&& npm version major --ignore-scripts
 		&& npm version major --ignore-scripts

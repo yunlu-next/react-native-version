@@ -1,19 +1,19 @@
 import { getDefaults, getPlistFilenames, isExpoProject } from "../../";
 
-import { Xcode } from "pbxproj-dom/xcode";
+import { Xcode } from "pbxproj-dom2/xcode";
 import flattenDeep from "lodash.flattendeep";
 import fs from "fs";
 import path from "path";
 import plist from "plist";
 import unique from "lodash.uniq";
 
-export default t => {
+export default (t) => {
 	const paths = getDefaults();
 	const pkg = require(path.join(t.context.tempDir, "package.json"));
 
 	const app = JSON.parse(
 		fs.readFileSync(path.join(t.context.tempDir, "app.json"), {
-			encoding: "utf8"
+			encoding: "utf8",
 		})
 	);
 
@@ -22,7 +22,7 @@ export default t => {
 			appVersion: app.expo.version,
 			buildNumber: app.expo.ios.buildNumber,
 			version: pkg.version,
-			versionCode: app.expo.android.versionCode
+			versionCode: app.expo.android.versionCode,
 		};
 	}
 
@@ -38,7 +38,7 @@ export default t => {
 	const CFBundleShortVersionString = {};
 	const CFBundleVersion = {};
 
-	getPlistFilenames(xcode).forEach(filename => {
+	getPlistFilenames(xcode).forEach((filename) => {
 		const target = path.dirname(filename);
 
 		const parsedPlist = plist.parse(
@@ -59,10 +59,10 @@ export default t => {
 		CFBundleVersion,
 		CURRENT_PROJECT_VERSION: unique(
 			flattenDeep(
-				xcode.document.projects.map(project => {
-					return project.targets.map(target => {
+				xcode.document.projects.map((project) => {
+					return project.targets.map((target) => {
 						return target.buildConfigurationsList.buildConfigurations.map(
-							config => {
+							(config) => {
 								return (
 									config.ast.value
 										.get("buildSettings")
@@ -78,6 +78,6 @@ export default t => {
 		}),
 		version: pkg.version,
 		versionCode: gradleFile.match(/versionCode (\d+)/)[1],
-		versionName: gradleFile.match(/versionName "(.*)"/)[1]
+		versionName: gradleFile.match(/versionName "(.*)"/)[1],
 	};
 };

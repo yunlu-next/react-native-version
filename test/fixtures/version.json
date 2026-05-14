@@ -2,16 +2,16 @@
   "default": {
     "AwesomeProject": {
       "CFBundleShortVersionString": {
-        "AwesomeProject": "2.0.1",
-        "AwesomeProject-tvOS": "2.0.1",
-        "AwesomeProject-tvOSTests": "2.0.1",
-        "AwesomeProjectTests": "2.0.1"
+        "AwesomeProject": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOS": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOSTests": "$(MARKETING_VERSION)",
+        "AwesomeProjectTests": "$(MARKETING_VERSION)"
       },
       "CFBundleVersion": {
-        "AwesomeProject": "2",
-        "AwesomeProject-tvOS": "2",
-        "AwesomeProject-tvOSTests": "2",
-        "AwesomeProjectTests": "2"
+        "AwesomeProject": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOS": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOSTests": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProjectTests": "$(CURRENT_PROJECT_VERSION)"
       },
       "CURRENT_PROJECT_VERSION": "2",
       "version": "2.0.1",
@@ -28,16 +28,16 @@
   "generateBuild": {
     "AwesomeProject": {
       "CFBundleShortVersionString": {
-        "AwesomeProject": "2.0.1",
-        "AwesomeProject-tvOS": "2.0.1",
-        "AwesomeProject-tvOSTests": "2.0.1",
-        "AwesomeProjectTests": "2.0.1"
+        "AwesomeProject": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOS": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOSTests": "$(MARKETING_VERSION)",
+        "AwesomeProjectTests": "$(MARKETING_VERSION)"
       },
       "CFBundleVersion": {
-        "AwesomeProject": "2000001",
-        "AwesomeProject-tvOS": "2000001",
-        "AwesomeProject-tvOSTests": "2000001",
-        "AwesomeProjectTests": "2000001"
+        "AwesomeProject": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOS": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOSTests": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProjectTests": "$(CURRENT_PROJECT_VERSION)"
       },
       "CURRENT_PROJECT_VERSION": "2000001",
       "version": "2.0.1",
@@ -54,16 +54,16 @@
   "incrementBuild": {
     "AwesomeProject": {
       "CFBundleShortVersionString": {
-        "AwesomeProject": "1.0",
-        "AwesomeProject-tvOS": "1.0",
-        "AwesomeProject-tvOSTests": "1.0",
-        "AwesomeProjectTests": "1.0"
+        "AwesomeProject": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOS": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOSTests": "$(MARKETING_VERSION)",
+        "AwesomeProjectTests": "$(MARKETING_VERSION)"
       },
       "CFBundleVersion": {
-        "AwesomeProject": "2",
-        "AwesomeProject-tvOS": "2",
-        "AwesomeProject-tvOSTests": "2",
-        "AwesomeProjectTests": "2"
+        "AwesomeProject": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOS": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOSTests": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProjectTests": "$(CURRENT_PROJECT_VERSION)"
       },
       "CURRENT_PROJECT_VERSION": "2",
       "version": "2.0.1",
@@ -80,16 +80,16 @@
   "neverIncrementBuild": {
     "AwesomeProject": {
       "CFBundleShortVersionString": {
-        "AwesomeProject": "2.0.1",
-        "AwesomeProject-tvOS": "2.0.1",
-        "AwesomeProject-tvOSTests": "2.0.1",
-        "AwesomeProjectTests": "2.0.1"
+        "AwesomeProject": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOS": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOSTests": "$(MARKETING_VERSION)",
+        "AwesomeProjectTests": "$(MARKETING_VERSION)"
       },
       "CFBundleVersion": {
-        "AwesomeProject": "1",
-        "AwesomeProject-tvOS": "1",
-        "AwesomeProject-tvOSTests": "1",
-        "AwesomeProjectTests": "1"
+        "AwesomeProject": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOS": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOSTests": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProjectTests": "$(CURRENT_PROJECT_VERSION)"
       },
       "CURRENT_PROJECT_VERSION": "1",
       "version": "2.0.1",
@@ -106,16 +106,16 @@
   "resetBuild": {
     "AwesomeProject": {
       "CFBundleShortVersionString": {
-        "AwesomeProject": "2.0.1",
-        "AwesomeProject-tvOS": "2.0.1",
-        "AwesomeProject-tvOSTests": "2.0.1",
-        "AwesomeProjectTests": "2.0.1"
+        "AwesomeProject": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOS": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOSTests": "$(MARKETING_VERSION)",
+        "AwesomeProjectTests": "$(MARKETING_VERSION)"
       },
       "CFBundleVersion": {
-        "AwesomeProject": "1",
-        "AwesomeProject-tvOS": "1",
-        "AwesomeProject-tvOSTests": "1",
-        "AwesomeProjectTests": "1"
+        "AwesomeProject": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOS": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOSTests": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProjectTests": "$(CURRENT_PROJECT_VERSION)"
       },
       "CURRENT_PROJECT_VERSION": "1",
       "version": "2.0.1",
@@ -132,16 +132,16 @@
   "setBuild": {
     "AwesomeProject": {
       "CFBundleShortVersionString": {
-        "AwesomeProject": "2.0.1",
-        "AwesomeProject-tvOS": "2.0.1",
-        "AwesomeProject-tvOSTests": "2.0.1",
-        "AwesomeProjectTests": "2.0.1"
+        "AwesomeProject": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOS": "$(MARKETING_VERSION)",
+        "AwesomeProject-tvOSTests": "$(MARKETING_VERSION)",
+        "AwesomeProjectTests": "$(MARKETING_VERSION)"
       },
       "CFBundleVersion": {
-        "AwesomeProject": "33",
-        "AwesomeProject-tvOS": "33",
-        "AwesomeProject-tvOSTests": "33",
-        "AwesomeProjectTests": "33"
+        "AwesomeProject": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOS": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProject-tvOSTests": "$(CURRENT_PROJECT_VERSION)",
+        "AwesomeProjectTests": "$(CURRENT_PROJECT_VERSION)"
       },
       "CURRENT_PROJECT_VERSION": "33",
       "version": "2.0.1",
