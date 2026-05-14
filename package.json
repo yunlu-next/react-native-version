@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/yunlu-next/react-native-version/issues"
   },
-  "version": "4.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "bin": {
     "react-native-version2": "cli.js"
